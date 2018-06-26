@@ -1,0 +1,330 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "us",
+            "intents": [
+                {
+                    "name": "View",
+                    "slots": [
+                        {
+                            "name": "showview",
+                            "type": "LIST_OF_VIEW"
+                        }
+                    ],
+                    "samples": [
+                        "show me the {showview}",
+                        "show {showview}",
+                        "get me the {showview}"
+                    ]
+                },
+                {
+                    "name": "Kpi",
+                    "slots": [
+                        {
+                            "name": "kpisummary",
+                            "type": "LIST_OF_KPI"
+                        }
+                    ],
+                    "samples": [
+                        "filter the kpi of {kpisummary}",
+                        "show the kpi of {kpisummary}",
+                        "show only {kpisummary}"
+                    ]
+                },
+                {
+                    "name": "Locationfilter",
+                    "slots": [
+                        {
+                            "name": "locationtype",
+                            "type": "LIST_OF_LOCATIONFILTER"
+                        }
+                    ],
+                    "samples": [
+                        "filter the location with {locationtype} sales",
+                        "show the location with {locationtype} sales"
+                    ]
+                },
+                {
+                    "name": "Filter",
+                    "slots": [
+                        {
+                            "name": "Measurelist",
+                            "type": "LIST_OF_MEASURE"
+                        },
+                        {
+                            "name": "MeasureValue",
+                            "type": "LIST_OF_MEASUREVALUE"
+                        }
+                    ],
+                    "samples": [
+                        "filter the {Measurelist} of value {MeasureValue}",
+                        "filter {Measurelist} to {MeasureValue}"
+                    ]
+                },
+                {
+                    "name": "Zoom",
+                    "slots": [
+                        {
+                            "name": "zoomlevel",
+                            "type": "LIST_OF_ZOOMLEVEL"
+                        }
+                    ],
+                    "samples": [
+                        "zoom to the level {zoomlevel}",
+                        "zoom upto {zoomlevel}",
+                        "zoom till {zoomlevel}",
+                        "show zoom level {zoomlevel}",
+                        "zoom the map to {zoomlevel}",
+                        "zoom to {zoomlevel}"
+                    ]
+                },
+                {
+                    "name": "ExplainDashboard",
+                    "slots": [],
+                    "samples": [
+                        "explain the dashboard"
+                    ]
+                },
+                {
+                    "name": "Whatdowesee",
+                    "slots": [],
+                    "samples": [
+                        "what do we see"
+                    ]
+                },
+                {
+                    "name": "open",
+                    "slots": [],
+                    "samples": [
+                        "open dashboard"
+                    ]
+                },
+                {
+                    "name": "thankyou",
+                    "slots": [],
+                    "samples": [
+                        "could you stop showing"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_KPI",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "cost"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "value"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "orders"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "unfullfilled"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "valueunfullfilled"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_LOCATIONFILTER",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "poor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fair"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "good"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "all"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_MEASURE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "saleschannel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "salesdivision"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_MEASUREVALUE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Direct sales"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Retail"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Tele Sales"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Value Added Reseller"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Wholesale"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AUDIO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CAMERA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "COMPUTER"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PHONE"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "All"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_VIEW",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "salesgroupview"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "locationview"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_ZOOMLEVEL",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "one"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "three"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "four"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "five"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "six"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eight"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ten"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
