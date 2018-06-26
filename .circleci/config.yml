@@ -12,16 +12,19 @@ jobs:
       - restore_cache:
           key: circleci-vbx-{{ checksum ".circleci/config.yml" }}
       - run:
-          name: install-npm-packages
-          command: 'if [ ! -e ~/alexa/node_modules ]; then npm install; else echo "Node dependencies restored from cache"; fi;'
+          name: npm-install
+          command: 'if [ ! -e ~/vbx-suite/node_modules/replace-in-file ]; then npm install replace-in-file nodemailer aws-sdk; else echo "Node dependencies restored from cache"; fi;'
       - run:
-          name: build-alexa
-          command: npm run prod
+          name: update-license
+          command: node contributionUpdate.js ${EXP_DATE} ${LICENSE_KEY} ${HS_DATE} ${IMAGE_STR}
       - run: mvn -U dependency:go-offline install
       - save_cache:
           paths:
             - ~/.m2
-            - ~/alexa/node_modules
+            - ~/vbx-suite/node_modules
           key: circleci-vbx-{{ checksum ".circleci/config.yml" }}     
       - store_artifacts:
-          path: updatesite/target/VBISuite-2.0.5.qualifier.zip 
+          path: updatesite/target/VBISuite-2.30.0.qualifier.zip
+      - run:    
+          name: 'upload file to firebase'
+          command: node processTrial.js ${LICENSE_KEY} ${EXP_DATE} ${EMAIL} ${VERSION} ${FULL_NAME}
