@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:8-jdk-node-browsers
+    working_directory: ~/alexa
+    environment:
+        MAVEN_OPTS: -Xms256m -Xmx1024m
+        JAVA_OPTIONS: -Xms512m -Xmx6144m -XX:MaxPermSize=2048m
+    steps:
+      - checkout
+      - restore_cache:
+          key: circleci-vbx-{{ checksum ".circleci/config.yml" }}
+      - run:
+          name: install-npm-packages
+          command: 'if [ ! -e ~/alexa/node_modules ]; then npm install; else echo "Node dependencies restored from cache"; fi;'
+      - run:
+          name: build-alexa
+          command: npm run prod
+      - run: mvn -U dependency:go-offline install
+      - save_cache:
+          paths:
+            - ~/.m2
+            - ~/alexa/node_modules
+          key: circleci-vbx-{{ checksum ".circleci/config.yml" }}     
+      - store_artifacts:
+          path: updatesite/target/VBISuite-2.0.5.qualifier.zip 
