@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension
+	xmlns="http://www.sap.com/bi/zen/sdk"
+	id="com.visualbi.echo"
+	title="Design Studio SDK Extension Sample Colored Box"
+	version="16.2"
+	vendor="VISUALBI">
+	<component
+		id="Echo"
+		title="Echo"
+		icon="res/icon.png"
+		handlerType="div"
+    	modes="commons m"
+		propertySheetPath="res/additional_properties_sheet/additional_properties_sheet.html">
+		<requireJs modes="commons m">res/js/component</requireJs>		
+		<property
+			id="url"
+			title="Endpoint URL"
+			type="String"
+			group="Display"
+			bindable="true"/>
+		<property
+			id="dashboardinfo"
+			title="dashboardinfo"
+			type="String"
+			group="Display"
+			bindable="true"/>		
+		<property
+			id="maxmininfo"
+			title="maxmininfo"
+			type="String"
+			group="Display"
+			bindable="true"/>	
+		<property
+			id="onclick"
+			title="On Click"
+			type="ScriptText"
+			group="Events"/>
+		<initialization>
+			<defaultValue property="LEFT_MARGIN">40</defaultValue>
+			<defaultValue property="TOP_MARGIN">40</defaultValue>		
+			<defaultValue property="WIDTH">100</defaultValue>
+			<defaultValue property="HEIGHT">100</defaultValue>
+			<defaultValue property="url">https://alexavbi.herokuapp.com</defaultValue>
+		</initialization>
+	</component>
+</sdkExtension>

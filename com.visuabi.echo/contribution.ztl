@@ -1,0 +1,183 @@
+class com.visualbi.echo.Echo extends Component {
+
+	String kpisummary(String kpi){*
+		switch(kpi) {
+				    case 'cost':
+				    	PL_COST.onClick();				    	
+				        break;
+				    case 'value':
+				    	PL_VALUE.onClick();
+				        break;
+				    case 'orders':
+				    	PL_ORDERS.onClick();
+				        break;
+				    case 'unfullfilled':
+				    	PL_UNFULFILLED.onClick();
+				        break;
+				    case 'valueunfullfilled':
+				    	PL_VALUE_UNFULFILLED.onClick();
+				        break;
+				    default:
+				    	PL_VALUE.onClick();
+				}
+			return 'success';
+	*}
+	
+	String setzoom(int zoomlevel){*
+		LOCATIONANALYZER_1.DSXSetZoomLevel(zoomlevel);
+		return 'success';
+	*}
+	
+	String setview(String view){*
+		switch(view) {
+				    case 'salesgroupview':
+				    	BUTTON_SALES_GROUP.onClick();
+				        break;
+				    case 'locationview':
+				    	BUTTON_LOCATION.onClick();
+				        break;
+				    default:
+				    	BUTTON_LOCATION.onClick();
+				}
+			return 'success';
+	*}
+
+	String locationfilter(String param){*
+		switch(param) {
+				    case 'poor':
+				    	BT_FILTER_POOR.onClick();
+				    	FILTER_POOR.setCSSClass("buttonSel");
+						FILTER_FAIR.setCSSClass("button");
+						FILTER_GOOD.setCSSClass("button");
+						FILTER_ALL.setCSSClass("button");
+				        break;
+				    case 'fair':
+				    	BT_FILTER_FAIR.onClick();									    	
+						FILTER_FAIR.setCSSClass("buttonSel");
+						FILTER_ALL.setCSSClass("button");
+						FILTER_GOOD.setCSSClass("button");
+						FILTER_POOR.setCSSClass("button");
+				        break;
+				        case 'good':
+				    	BT_FILTER_GOOD.onClick();
+				    	FILTER_GOOD.setCSSClass("buttonSel");
+						FILTER_ALL.setCSSClass("button");
+						FILTER_POOR.setCSSClass("button");
+						FILTER_FAIR.setCSSClass("button");
+				        break;
+				         case 'all':
+				    	BT_FILTER_ALL.onClick();
+				    	FILTER_ALL.setCSSClass("buttonSel");
+						FILTER_FAIR.setCSSClass("button");
+						FILTER_GOOD.setCSSClass("button");
+						FILTER_POOR.setCSSClass("button");
+				        break;
+				    default:
+				    	BT_FILTER_ALL.onClick();
+				    	FILTER_ALL.setCSSClass("buttonSel");
+						FILTER_FAIR.setCSSClass("button");
+						FILTER_GOOD.setCSSClass("button");
+						FILTER_POOR.setCSSClass("button");
+				}
+			return 'success';
+	*}
+	
+	
+	
+	String filterDim(String dimname,String value){*
+
+		switch(value){
+			case "audio":
+		       	value="AUDIO";
+		        break;
+		    case "camera":
+		        value="CAMERA";
+		        break;
+		     case "TV":
+		        value="TV";
+		        break;
+		     case "phone":
+		        value="PHONE";
+		        break;
+		        case "all":
+		        value="(ALL_MEMBERS)";
+		        break;
+		    case "directsales":
+		      value="Direct sales"
+		      break;
+		    case "retail":
+		      value="Retail"
+		      break;
+		    case "telesales":
+		      value="Tele sales"
+		      break;
+		    case "valueaddedreseller":
+		      value="Value Added Reseller"
+		      break;
+		    case "wholesale":
+		      value="Wholesale"
+      		  break;
+		}
+		switch(dimname) {
+		    case "saleschannel":	     	
+				DS_LOCATION_KPIVALUES.setFilter("DIST_CHANNEL_NAME", value);
+				//Removing filters
+				DS_HEATMAP.clearFilter("DIVISION");
+				DS_KPI_TREND.clearFilter("DIVISION");
+				DS_LOCATION_KPIVALUES.clearFilter("DIVISION");
+				DS_LOCATION_ANALYZER.clearFilter("DIVISION");
+				DS_POPUP_TREND.clearFilter("DIVISION");
+				
+				DS_LOCATION_ANALYZER.clearFilter("PLANTNAME");
+				DS_POPUP_TREND.clearFilter("PLANTNAME");
+				
+				//Setting filters
+				DS_HEATMAP.setFilter("DIST_CHANNEL_NAME", value);
+				DS_KPI_TREND.setFilter("DIST_CHANNEL_NAME", value);
+				DS_LOCATION_ANALYZER.setFilter("DIST_CHANNEL_NAME", value);
+				DS_POPUP_TREND.setFilter("DIST_CHANNEL_NAME", value);
+				
+				LB_DIVISION.setSelectedValue("(ALL_MEMBERS)");
+		        break;
+		    case "salesdivision":
+		        DS_LOCATION_KPIVALUES.setFilter("DIVISION", value);
+		       //Removing filters
+				DS_HEATMAP.clearFilter("DIST_CHANNEL_NAME");
+				DS_KPI_TREND.clearFilter("DIST_CHANNEL_NAME");
+				DS_LOCATION_KPIVALUES.clearFilter("DIST_CHANNEL_NAME");
+				DS_LOCATION_ANALYZER.clearFilter("DIST_CHANNEL_NAME");
+				DS_POPUP_TREND.clearFilter("DIST_CHANNEL_NAME");
+
+				DS_LOCATION_ANALYZER.clearFilter("PLANTNAME");
+				DS_POPUP_TREND.clearFilter("PLANTNAME");
+
+				//Setting filters
+				DS_HEATMAP.setFilter("DIVISION", value);
+				DS_KPI_TREND.setFilter("DIVISION", value);
+				DS_LOCATION_ANALYZER.setFilter("DIVISION", value);
+				DS_POPUP_TREND.setFilter("DIVISION", value);
+				LB_CHANNEL.setSelectedValue("(ALL_MEMBERS)");
+        }
+		return 'Success';
+	*}
+	
+
+	String restart() {*
+		LB_DIVISION.setSelectedValue("(ALL_MEMBERS)");
+		LB_CHANNEL.setSelectedValue("(ALL_MEMBERS)");
+		LB_CHANNEL.onSelect();
+		LB_DIVISION.onSelect();
+		BT_FILTER_ALL.onClick();
+		BUTTON_LOCATION.onClick();
+		return 'Success';
+	*}
+	
+	void dashboardinformation(String username,String dashboardname,String lastexecuted,String title1,String title2){*
+		this.dashboardinfo=username+';'+dashboardname+';'+lastexecuted+';'+title1+';'+title2;
+	*}
+	
+	void maxmininformation(String message1,String message2){*
+		this.maxmininfo=message1+';'+message2;
+	*}
+	
+}

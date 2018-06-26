@@ -1,0 +1,41 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: Tyki980MuCFf2vTm5hJH9K3RCoe0q
+ G+vofobja0VTPs=
+SHA-256-Digest-Manifest: 17On13Un/5baCLKjk9K9lk5/vrkaRfhjioDffpvXPcU=
+Created-By: 1.8.0_65 (Oracle Corporation)
+
+Name: contribution.xml
+SHA-256-Digest: RCHCxaAlcwDwqHFXk/pS2pTViyRoZyANr6AsIwDTrRA=
+
+Name: plugin.xml
+SHA-256-Digest: q7a2T9DkTTcAUa/CL0aGpGn+/dcnbL8yKgxAf2RMV0k=
+
+Name: res/additional_properties_sheet/additional_properties_sheet.html
+SHA-256-Digest: 33pGCIUUug0DZbm7riVv5YG2QZVfn5Z+p7BnXeAV4MI=
+
+Name: res/icon.png
+SHA-256-Digest: ONiIW+DJOjRQT0qO0KcbQHB7/JWoKFLKj3dxIN8FjvY=
+
+Name: META-INF/maven/com.visualbi.echo.master/com.visualbi.echo/pom.pr
+ operties
+SHA-256-Digest: ockcqUUqWm9gdIgwfLdQNVqdKkaDTpF6rnd/6PMOp5A=
+
+Name: res/css/component.css
+SHA-256-Digest: ttOw6BfraywytSUGbQyU9s3l4D9weukjVgtaAm1Q3QI=
+
+Name: META-INF/maven/com.visualbi.echo.master/com.visualbi.echo/pom.xm
+ l
+SHA-256-Digest: s0UvtjqhMMeQt9cJk/wCyQkY+O++RZAnSPv4fVmTMUk=
+
+Name: res/js/component.js
+SHA-256-Digest: 6RV9GX6OKDtzBIh1GnmICaS19LB/RYZzQ++81OXG5k8=
+
+Name: contribution.ztl
+SHA-256-Digest: bzx+Gt3MvOT2VVSLWs/YpxZboh2g8Kw0Y3W+mirwlgw=
+
+Name: res/js/socket.js
+SHA-256-Digest: 6LSVDFvLfQ7enZ+1vb1FO1OQllTWzQPfl8HFmSNkrTc=
+
+Name: res/additional_properties_sheet/additional_properties_sheet.js
+SHA-256-Digest: FHDvnKCiVLS+HsT5dee6Pzo7x8gyV3UaJeBpOcC7BcU=
+
