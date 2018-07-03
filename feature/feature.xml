@@ -3,8 +3,7 @@
       id="com.visualbi.echo.feature"
       label="Visual BI Extensions for SAP Lumira Designer - Echo"
       version="1.0.0.qualifier"
-      provider-name="Visual BI Solutions"
-      license-feature="com.sap.rte.sharedinfo.updatesite">
+      provider-name="Visual BI Solutions">
 
    <description url="">
       A Collection of Charts

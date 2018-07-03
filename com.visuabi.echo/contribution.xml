@@ -4,7 +4,7 @@
 	id="com.visualbi.echo"
 	title="Design Studio SDK Extension Sample Colored Box"
 	version="1.0"
-	vendor="VISUALBI">
+	vendor="VisualBI Solutions">
 	<component
 		id="Echo"
 		title="Echo"

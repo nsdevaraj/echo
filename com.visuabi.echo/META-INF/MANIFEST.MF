@@ -1,47 +1,7 @@
-Manifest-Version: 1.0
-Bundle-SymbolicName: com.visualbi.echo;singleton:=true
-Bundle-Name: Design Studio SDK Extension Sample Colored Box
-Bundle-Version: 1.0.0.qualifier
-Archiver-Version: Plexus Archiver
-Built-By: nithyanandamv
-Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk.eclipse
+Manifest-Version: 1.0.0
 Bundle-ManifestVersion: 2
-Bundle-Vendor: VISUALBI
-Created-By: Apache Maven 3.3.3
-Build-Jdk: 1.8.0_65
-
-Name: contribution.xml
-SHA-256-Digest: XdxNRGqDl3WePWRMldDWx6mvw43KcdhBdOmgpdZuoMQ=
-
-Name: plugin.xml
-SHA-256-Digest: TR3r705oeVNgSWkfb/DH08EbnycCNrqeu9hteOWdcw0=
-
-Name: res/additional_properties_sheet/additional_properties_sheet.html
-SHA-256-Digest: yVxE21z/yZaLzL7O4TNhlseZ57YsST6FXKtMlILD55g=
-
-Name: res/icon.png
-SHA-256-Digest: bH508MMKrED/ZbrQt9pm78BpzgaZfAKEJjKfmm0alvU=
-
-Name: META-INF/maven/com.visualbi.echo.master/com.visualbi.echo/pom.pr
- operties
-SHA-256-Digest: Y5TEW+GyqbNAiesOVb5VIlcgNE4VrHn4lbakzOiH4VQ=
-
-Name: res/css/component.css
-SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-
-Name: META-INF/maven/com.visualbi.echo.master/com.visualbi.echo/pom.xm
- l
-SHA-256-Digest: 8yv9StbKWxnGi6xzGzF0Bjw7RB+9q4kWhXMwVPGOugI=
-
-Name: res/js/component.js
-SHA-256-Digest: zlwwdMcNInjhF0Xm6SF/3/G8oWpWuKaA1FbPBcR0Iik=
-
-Name: contribution.ztl
-SHA-256-Digest: bRLhzHl3pMaFR9UG065bDmRYUym7y9Nsss+kD5UL2Ts=
-
-Name: res/js/socket.js
-SHA-256-Digest: kM0PALUL8RI8q7XOSdus0NhBd75VbJYp5f4ncB7ynHo=
-
-Name: res/additional_properties_sheet/additional_properties_sheet.js
-SHA-256-Digest: FE4woNPse7bM19QCiDWkyTOqYvSY3y26WYIS1Zg5dns=
-
+Bundle-Name: Design Studio SDK Extension Sample Colored Box
+Bundle-SymbolicName: com.visualbi.echo;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk.eclipse
+Bundle-Vendor: VisualBI Solutions
