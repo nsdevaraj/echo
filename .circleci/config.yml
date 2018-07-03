@@ -25,6 +25,3 @@ jobs:
           key: circleci-vbx-{{ checksum ".circleci/config.yml" }}     
       - store_artifacts:
           path: updatesite/target/VBISuite-1.0.0.qualifier.zip
-      - run:    
-          name: 'upload file to firebase'
-          command: node processTrial.js ${LICENSE_KEY} ${EXP_DATE} ${EMAIL} ${VERSION} ${FULL_NAME}
