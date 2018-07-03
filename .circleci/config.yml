@@ -17,14 +17,14 @@ jobs:
       - run:
           name: update-license
           command: node contributionUpdate.js ${EXP_DATE} ${LICENSE_KEY} ${HS_DATE} ${IMAGE_STR}
-      - run: mvn install -X
+      - run: mvn install
       - save_cache:
           paths:
             - ~/.m2
             - ~/vbx-suite/node_modules
           key: circleci-vbx-{{ checksum ".circleci/config.yml" }}     
       - store_artifacts:
-          path: updatesite/target/VBISuite-2.30.0.qualifier.zip
+          path: updatesite/target/VBISuite-1.0.0.qualifier.zip
       - run:    
           name: 'upload file to firebase'
           command: node processTrial.js ${LICENSE_KEY} ${EXP_DATE} ${EMAIL} ${VERSION} ${FULL_NAME}
