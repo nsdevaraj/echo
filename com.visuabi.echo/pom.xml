@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.visualbi.echo</groupId>
     <artifactId>parent</artifactId>
-    <version>16.2.0.qualifier</version>
+    <version>1.0.0.qualifier</version>
   </parent>
   <artifactId>com.visualbi.echo</artifactId>
   <packaging>eclipse-plugin</packaging>
