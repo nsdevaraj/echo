@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.visualbi.echo.feature"
+      label="Visual BI Extensions for SAP Lumira Designer - Echo"
+      version="1.0.0.qualifier"
+      provider-name="Visual BI Solutions">
+
+   <description url="">
+      A Collection of Charts
+   </description>
+
+   <copyright>
+      All rights reserved. Copyright (2013-2015) By Visual BI Solutions.
+   </copyright>
+
+   <license url="">
+
+
+CUSTOMER END USER LICENSE AND SUPPORT AGREEMENT
+BY CLICKING THE ACCEPTANCE BUTTON BELOW OR ACCESSING, USING OR INSTALLING ANY PART OF THE VBX TOOL PROVIDED HEREWITH, YOU EXPRESSLY AGREE TO BE BOUND BY, AND STRICTLY ADHERE TO, ALL OF THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, YOU ARE NOT AUTHORIZED TO ACCESS, INSTALL OR USE ANY PART OF THE VBX TOOL. IF YOU HAVE A SEPARATE AGREEMENT WITH VBI COVERING YOUR ACCESS AND USE OF THE VBX TOOL, THE TERMS AND CONDITIONS OF THAT SEPARATE AGREEMENT SHALL GOVERN SAME.
+
+IF YOU DO NOT ACCEPT THESE TERMS, YOU MAY NOT ACCESS OR USE THE VBX TOOL AND MUST IMMEDIATELY RETURN OR DELETE, AS APPLICABLE, THE VBX TOOL. IF YOU LOAD OR OTHERWISE ACCESS OR USE THE VBX TOOL, YOU ARE DEEMED TO HAVE ACCEPTED THESE TERMS AND SHALL BE BOUND BY SAME.
+THIS CUSTOMER END USER LICENSE AND SUPPORT AGREEMENT (this “Agreement”) is entered into by and between Visual BI, a Texas corporation, with a business address of 5600 Tennyson Pkwy Suite 250 Plano TX 75024 (“VBI”, the "Company," "Us" or "We") and the person, organization or entity (the "Licensee," "You" or "Your") which has purchased or has otherwise been authorized to access and use VBI’s extensions, as more specifically identified in Your invoice, in Trial Version or Full Version, subject hereto.  
+1. 	VBX TOOL. 
+A.	Definition.  As used herein, the term “VBX” or "VBX Tool" means the computer software programming and code (the “Licensed Software”) for the specific software indicated on Your invoice from the Company; any physical medium of delivery; any documentation, user manuals, and related materials provided by Us with the Licensed Software (collectively, the “Licensed Documentation”); any and all updates, enhancements or supplemental materials provided with regard thereto and any and all other data and information provided by the Company other than information or data provided by Licensee. 
+B.	Packages.	The VBX Tool is available in various packages [For additional information, visit http://visualbi.com/extensions/ ] The VBX Tool package You purchased is indicated on Your invoice from the Company.  Your access to upgrades/new versions of the VBX Tool shall be limited to the VBX Tool package You purchased.  New VBX Tool packages, if any, introduced by the Company shall only be available to You if you have purchased the VBX Tool - Full Package.     
+C.	Versions.  The VBX Tool is available in two versions.   For purposes of this Agreement:
+1.	“Trial Version” shall mean a limited, trial version of the VBX Tool and accompanying installer.  With respect to the Trial Version, You acknowledge and agree that:
+•	Your use of the Trial Version shall be limited to thirty (30) days from date you accept this Agreement (“Trial Period”);
+•	Some portions of the Trial Version are time-sensitive and will not function after the Trial Period;
+•	You will not receive separate notice of the expiration of the Trial Period.  Therefore You must plan accordingly to ensure the retention and/or protection of any data You utilize with the VBX Tool during the Trial Period, and are solely responsible for same;
+•	YOUR USE OF THE TRIAL VERSION IS LIMITED TO YOUR INTERNAL EVALUATION PURPOSES ONLY, AND MAY NOT INCLUDE USE OF SAME IN A PRODUCTION ENVIRONMENT.  AS SUCH, YOU MAY NOT DEMONSTRATE, TEST, EXAMINE, EVALUATION OF OTHERWISE UTILIZE THE TRIAL VERSION IN A LIVE OPERATING ENVIRONMENT OR WITH DATA THAT HAS NOT BEEN SUFFICIENTLY BACKED UP;
+•	The Trial Version is not be entitled to maintenance and support and the terms set forth in Section 7 and the Support Page herein shall not apply to same;
+•	UPON THE EXPIRATION OF THE TRIAL PERIOD, YOU AGREE NOT MAKE ATTEMPTED OR ACTUAL ACCESS TO OR ATTEMPTED OR ACTUAL FURTHER USE OF THE TRIAL VERSION, AND YOU WILL DELETE OR DESTROY, AS APPLICABLE ALL COPIES OF SAME THAT YOU POSSESS OR CONTROL;
+•	YOUR ONLY OPTION TO CONTINUE TO USE THE VBX TOOL UPON EXPIRATION OF THE TRIAL PERIOD IS TO ACQUIRE A VALIDLY LICENSED COPY OF FULL VERSION OF THE VBX TOOL.
+2.	Upon Your completed purchase of the fully-featured and functioning version of the VBX Tool (“Full Version”), You shall be provided with an installer to provide You access to same, such Full Version to be entitled to maintenance and support as set forth in Section 7 below.  Unless expressly stated to the contrary herein, all references to the VBX Tool and/or the Licensed Software shall refer to both the Trial Version and/or the Full Version, as applicable.  Either Version may be delivered to you via electronic means and/or physical medium.   
+D.	Third Party Compatibility.  You acknowledge and agree that the VBX Tool may not operate, in whole or in part, in the event You utilize the VBX Tool in connection with certain third party software components other than those outlined under ‘Supported Platforms’ in http://visualbi.com/extensions/support/. We make no representations or warranties to cover that situation and You agree that You utilize any such components at Your own risk.         
+2. 	Third Party Components.
+
+A.	THIRD PARTY LICENSE.   LICENSEE HEREBY ACKNOWLEDGES AND AGREES THAT USE OF THE VBX TOOL REQUIRES A FULLY FUNCTIONING COPY OF SAP LICENSES AS OUTLINED IN ‘SUPPORTED VERSIONS’ SECTION IN http://visualbi.com/extensions/support/ AND ACCEPTANCE OF SAP'S LICENSE AGREEMENT FOR SAME (THE "THIRD PARTY LICENSE").  LICENSEE IS SOLELY RESPONSIBLE FOR MAINTAINING AN ENVIRONMENT THAT SUPPORTS USE OF THE VBX TOOL.  LICENSEE HEREBY AGREES TO INDEMNIFY AND HOLD THE COMPANY HARMLESS FROM ANY AND ALL VIOLATIONS OF THE THIRD PARTY LICENSE, AS AMENDED.  LICENSEE AGREES TO USE THE VBX TOOL AT ITS SOLE RISK IN ACCORDANCE WITH THIS AGREEMENT AND THE THIRD PARTY LICENSE. 
+
+B.	OPEN SOURCE COMPONENTS.  LICENSEE HERE ACKNOWLEDGES AND AGREES THAT THE VBX TOOL INCLUDES AND/OR MAKES AVAILABLE OPEN SOURCE COMPONENTS LISTED IN http://visualbi.com/extensions/opensourceattribution/ 
+
+LICENSEE ACKNOWLEDGES AND AGREES THAT IT IS ALSO SUBJECT TO THE LICENSE TERMS OF EACH SUCH COMPONENT.
+
+3. 	LICENSE FEES.  The Trial Version of the VBX Tool is available to You free of any Fees.  The VBX Tool License granted herein to the Full Version of the VBX Tool is subject to payment of a license fee to the Company (the “License Fees”) and applicable maintenance and support fees (the “Support Fees”).   The License Fees and the Support Fees are referred to collectively as the “Fees”. 
+
+4. 	LICENSE GRANT. Subject to the terms of this Agreement and payment of all applicable Fees, the Company hereby grants to Licensee (and Licensee alone) a perpetual, worldwide, nonexclusive, non-transferable, non-sublicensable, fee-bearing limited license to use the object code version of the Licensed Software as a single, undivided unit, and to use the Licensed Documentation exclusively in connection with the Licensed Software, solely for Licensee’s internal business purposes (the “VBX Tool License”). EXCEPT FOR LICENSEE’S AFFILIATES AND LICENSEE’S CONTRACTORS (BOTH DEFINED BELOW), THE VBX TOOL LICENSE DOES NOT INCLUDE ANY RIGHT FOR ANY THIRD PARTIES TO RECEIVE, ACCESS OR USE THE LICENSED SOFTWARE IN WHOLE OR IN PART. IN THE EVENT LICENSEE WITH ONE OR MORE AFFILIATES IS LOOKING TO DEPLOY VBX TOOL IN ADDITIONAL PRODUCTION ENVIRONMENTS FOR THE BENEFIT OF ITS AFFILIATES, LICENSEE WILL BE REQUIRED TO PURCHASE A SEPARATE VBX TOOL LICENSE FOR EACH AFFILIATE PRODUCTION ENVIRONMENT.  IF YOU ARE A SERVICE PROVIDER OR HOSTING PROVIDER, YOU ARE NOT AUTHORIZED TO USE THE LICENSED SOFTWARE IN A MANNER (INCLUDING, WITHOUT LIMITATION, AS A SERVICE BUREAU OR DASHBOARD) THAT PROVIDES ACCESS TO AND/OR ENABLES USE OF EITHER THE VBX TOOL OR DASHBOARDS DEVELOPED USING VBX TOOL BY END USER THIRD PARTIES.  THE VBX TOOL FOR THE TRIAL VERSION DOES NOT INCLUDE ANY RIGHT FOR LICENSEE OR ANY THIRD PARTY TO ACCESS OR USE THE FULL VERSION OF THE LICENSED SOFTWARE IN WHOLE OR IN PART.  As used herein, the term: "Affiliate" shall mean only any person, organization or entity controlling, controlled by or under common control with Licensee, including but not limited to subsidiaries, correspondents and parent entity utilizing the Licensed Software solely within Licensee’s environment and solely for the benefit of Licensee. The term "control" means the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of such person or entity; “Contractors” shall mean only Licensee’s third party contractors, such as an IT contractor, utilizing the Licensed Software solely within Licensee’s environment and solely for Licensee’s benefit; and “Customers” shall mean Licensee’s direct customers and clients that are end users. 
+
+5. 	ADDITIONAL LICENSE RESTRICTIONS. The VBX Tool License is subject to the following additional limitations, restrictions and terms of use:  Licensee shall not, directly or indirectly, copy, translate, reverse engineer, decompile, disassemble, decode, sell, rent, convey, lend, distribute, sublicense, time share, service bureau, display, host, outsource, disclose or otherwise commercially exploit or make available to any third party the Licensed Software, or any component thereof, or modify, create any derivative works of, enhance, or otherwise change or supplement the Licensed Software or the Licensed Documentation, in any way.  Licensee shall not use the Licensed Software to provide services to third parties (e.g., consulting, systems integration, business process outsourcing, hosting or third party training).  Customer shall not remove any proprietary, copyright, trademark, or service mark legend from any Licensed Software or Licensed Documentation components.  Licensee agrees further not to use the Licensed Software in any that is competitive with the Company, and shall not publish or otherwise disclose information relating to the performance of the VBX Tool or to any third party unless and only to the extent required by law or regulation or as agreed by the Company in writing. 
+
+6. 	OWNERSHIP OF VBX TOOL.  The Licensed Software and Licensed Documentation are being licensed, and not sold, to You.  All right, title, and interest in and to the Licensed Software and Licensed Documentation, and any related intellectual property or other proprietary rights therein or thereto, are and shall remain at all times the sole and exclusive property of the Company and its licensors.  Licensee’s rights in or to the Licensed Software and Licensed Documentation are limited to those rights expressly set forth in this Agreement.  If Licensee is an agency or instrumentality of the United States Government, the Licensed Software and Licensed Documentation are commercial computer software and commercial computer software documentation within the meaning of applicable Federal Acquisition Regulations (as may be amended or supplemented from time to time), and Licensee’s use of the Licensed Software and Licensed Documentation is governed exclusively by this Agreement.
+
+7. 	LIMITED SUPPORT; EXCLUSIVE REMEDY. 
+
+A.	Trial Version.  You understand and acknowledge that You are not entitled to any maintenance or support for the Trial Version of the Licensed Software.   
+
+B.	Full Version.    The Company agrees to provide to You the following maintenance and support (“Support”) for the Full Version of the Licensed Software: 
+(http://visualbi.com/extensions/support/).
+You acknowledge and agree that your receipt of Support is conditioned upon You at all times maintaining a valid and paid VBX Tool License to the Full Version; and payment by You of all applicable Support Fees.
+
+8. 	CONFIDENTIALITY. Licensee acknowledges that the VBX Tool the Licensed Documentation contains valuable trade secrets and confidential information of the Company, including but not limited to: (i) any third-party software licensed with or as part of the Licensed Software, benchmark results, manuals, program listings, data structures, flow charts, logic diagrams, functional specifications; (ii) the concepts, techniques, ideas, and know-how embodied and expressed in the Licensed Software; and (iii) the architecture and functionality of the Licensed Software; the appearance, content and flow of the screens; the organization, design and content of the VBX Tool; and the method and pattern of user interaction with the VBX Tool.  Licensee agrees not to share, disclose or transfer, and not to permit any third party to share, disclose or transfer any trade secrets or confidential information of or relating to the VBX Tool or the Company. 
+9. 	TERMINATION OF LICENSE; SURVIVAL. This Agreement is effective upon Your acceptance of the terms and conditions set forth herein, indicated by Your clicking of “ACCEPT” below, and shall continue in full force until terminated. You may terminate this Agreement and Your use of the VBX Tool at any time, in your discretion, by deleting the Licensed Software and Licensed Documentation from any and all computers and media. Without prejudice to the foregoing, the Company may terminate this Agreement and the VBX Tool License for (a) Licensee's nonpayment of applicable fees after five (5) days prior written notice of such nonpayment, and (b) any material, uncured breach of this Agreement by Licensee. Upon any termination of this Agreement, (i) the VBX Tool License shall automatically terminate; (ii) Licensee shall delete from all computer systems and media or destroy any and all copies of the VBX Tool, the Licensed Software and the Licensed Documentation; and (iii) Licensee shall permanently terminate any and all use of all of the same. Upon any termination of this Agreement, the provisions of Sections 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 and 14 shall survive. 
+
+10. 	LIMITED WARRANTY/DISCLAIMER OF WARRANTIES. 
+
+A.	LICENSOR WARRANTS THAT THE LICENSED SOFTWARE WILL CONFORM TO THE PERFORMANCE STANDARDS AND SPECIFICATIONS SET FORTH IN THE LICENSED DOCUMENTATION IF THE LICENSED SOFTWARE IS PROPERLY INSTALLED AND USED IN AN APPROPRIATE OPERATING ENVIRONMENT. LICENSOR’S SOLE RESPONSIBILITY UNDER THIS WARRANTY SHALL BE LIMITED TO CORRECTING THE PORTION OF THE LICENSED SOFTWARE THAT FAILS TO PERFORM SUBSTANTIALLY IN ACCORDANCE WITH THE SAID SPECIFICATIONS OR, AT THE OPTION OF LICENSOR, REFUNDING THE APPLICABLE LICENSE FEES, IN WHICH EVENT LICENSEE SHALL RETURN ALL COPIES OF THE LICENSED SOFTWARE AND RELATED DOCUMENTATION OR DESTROY THAT WHICH IS NOT RETURNED.  LICENSOR SHALL HAVE NO LIABILITY UNDER THE FOREGOING WARRANTY IF (i) LICENSEE DECOMPILES, REVERSE ENGINEERS, OR MODIFIES THE LICENSED SOFTWARE WITHOUT LICENSOR’S PRIOR WRITTEN CONSENT, (B) LICENSEE FAILS TO GIVE LICENSOR WRITTEN NOTICE OF THE CLAIMED BREACH OF WARRANTY, OR (C) THE FAILURE TO PERFORM IS CAUSED IN WHOLE OR IN PART BY PERSONS OTHER THAN LICENSOR OR BY PRODUCTS, EQUIPMENT, OR COMPUTER PROGRAMS NOT FURNISHED BY LICENSOR.  LICENSOR MAKES NO REPRESENTATIONS OR WARRANTIES WITH RESPECT TO ANY OPEN SOURCE COMPONENTS WITHIN AND/OR MADE AVAILABLE THROUGH THE LICENSED SOFTWARE, AND LICENSOR SHALL HAVE NO LIABILITY OF ANY KIND OR NATURE ARISING OUT OF SAME. 
+
+B.	EXCEPT AS EXPRESSLY SET FORTH IN SECTION 10(A) ABOVE, THE LICENSED SOFTWARE AND LICENSED DOCUMENTATION ARE PROVIDED ON AN "AS IS" BASIS WITHOUT ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR PARTICULAR PURPOSE, NON-INTERFERENCE, NON-INFRINGEMENT, INFORMATIONAL CONTENT, SYSTEM INTEGRATION AND ANY WARRANTIES ARISING FROM A COURSE OF USAGE OR TRADE PRACTICE. THE COMPANY DOES NOT REPRESENT OR WARRANT THAT THE LICENSED SOFTWARE MEET LICENSEE’S REQUIREMENTS OR WILL OPERATE IN THE COMBINATION THAT LICENSEE SELECTS FOR USE, OR THAT THE OPERATION OF THE LICENSED SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE, OR THAT ALL DEFECTS IN THE LICENSED SOFTWARE WILL BE CORRECTED BY LICENSOR.
+
+C.	YOU AS LICENSEE ALONE SHALL DETERMINE IF AND TO WHAT EXTENT THE VBX TOOL WILL MEET YOUR NEEDS AND YOU ALONE SHALL BEAR THE ENTIRE RISK OF ITS PERFORMANCE OR NON-PERFORMANCE, THE ENVIRONMENT AND/OR PLATFORM WHICH YOU OPERATE WITH SAME, AND YOUR NEED FOR THIRD PARTY LICENSES, INCLUDING, WITHOUT LIMIATION, THE THIRD PARTY LICENSE.  IN NO EVENT SHALL THE COMPANY BE LIABLE TO YOU OR TO ANY THIRD PARTY FOR ANY COSTS, LOSSES, LIABILITIES, DAMAGES, EXPENSES OR CLAIMS INCURRED AS THE RESULT OF YOUR USE THEREOF. 
+
+11. 	LIMITATION OF LIABILITY AND DAMAGES. IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER OR ANY THIRD PARTY, UNDER THIS AGREEMENT OR THROUGH THE USE OF THE LICENSED SOFTWARE OR LICENSED DOCUMENTATION, FOR ANY AMOUNTS REPRESENTING LOSS OF PROFITS, LOSS OR INACCURACY OF DATA, LOSS OF BUSINESS, COSTS OF PROCUREMENT OF SUBSTITUTE GOODS, SERVICES, OR TECHNOLOGY, OR INDIRECT, CONSEQUENTIAL, OR PUNITIVE DAMAGES WHETHER OR NOT THE POSSIBILITY OF SUCH DAMAGES HAS BEEN DISCLOSED IN ADVANCE OR COULD HAVE BEEN REASONABLY FORESEEN. LICENSOR’S AND LICENSEE’S AGGREGATE LIABILITY IN CONTRACT, TORT, OR OTHERWISE TO THE OTHER OR ANY THIRD PARTY ARISING FROM THIS AGREEMENT OR THE USE OF THE LICENSED SOFTWARE SHALL BE LIMITED TO THE LICENSE FEES ACTUALLY PAID TO LICENSOR BY LICENSEE UNDER THIS AGREEMENT
+
+12. 	INDEMNIFICATION. You hereby agree to indemnify, hold harmless and defend the Company, and its shareholders, officers, directors, employees and agents, from and against any and all third party actions, claims, damages, debts, demands, losses and liabilities, including reasonable attorney's fees, asserted against the Company and arising out of or relating to: Your breach of this Agreement; and/or Your use or misuse of the VBX Tool, the Licensed Software and/or the Licensed Documentation; and/or any breach of Licensee’s obligations under Section 13 below.
+
+13.	EXPORT.  The Licensed Software and Licensed Documentation may be subject to U.S. export control laws and may be subject to export or import regulations in other countries. Licensee shall strictly comply with all such laws and regulations, and has sole responsibility to obtain authorization to export or import the Licensed Software and Licensed Documentation, as may be required.  Licensee’s obligations under this section shall survive the expiration or termination of this Agreement.
+14. 	GENERAL PROVISIONS. 
+A.	Complete Agreement.  This Agreement is the entire agreement relating to the subject matter of this Agreement between the You and the Company, and supersedes any prior or contemporaneous agreements, understandings, or proposals as to the subject matter of this Agreement. This Agreement may not be modified or altered except by written instrument duly executed by both You and the Company.
+B.	Notice. Any notice or communication required or permitted in this Agreement shall be in writing and shall be delivered by email or regular mail. Any email directed to the Company may be addressed to support@visualbi.com. Any email directed to Licensee shall be addressed to the last known email address in Licensor’s records for Licensee.
+C.	Governing Laws and Venue. This Agreement and performance under this Agreement shall be governed exclusively by the laws of the State of Texas, without regard to any considerations of conflicts of law.  FOR ANY DISPUTE RELATING TO OR ARISING OUT OF THIS AGREEMENT, THE PARTIES CONSENT TO PERSONAL JURISDICTION IN, AND THE EXCLUSIVE VENUE OF THE STATE AND FEDERAL COURTS IN COLLIN COUNTY, TEXAS.  ALL SUCH ACTIONS SHALL BE TRIED BY THE COURT SITTING WITHOUT A JURY AND THE PARTIES IRREVOCABLY WAIVE THEIR RIGHTS TO A TRIAL BY JURY. In connection with all actions or proceedings in which the Company prevails against Licensee, the Company shall be entitled to recovery of its costs and expenses, including reasonable attorneys' fees. 
+
+D.	Severability.  If any provision of this Agreement is determined to be invalid or unenforceable under any applicable statute or rule of law, it is to that extent to be deemed omitted. The remainder of the Agreement shall be valid and enforceable to the maximum extent possible.
+E.	Assignment.  Licensee may not assign, sublicense, or otherwise transfer, without the prior written consent of Licensor, Licensee’s rights, duties, or obligations under this Agreement to any person or entity, in whole or in part, and any purported attempt to do so is void and of no effect.  
+F.	Waiver.  The delay or failure of the Company to exercise in any respect any right provided for in this Agreement shall not be deemed a waiver of such right or any further right under this Agreement.
+G.	Headings. The headings appearing at the beginning of the several sections contained in this Agreement have been inserted for identification and reference purposes only and shall not be used in the construction and interpretation of this Agreement.
+H.	No Construction against Drafter. If an ambiguity or question of intent arises with respect to any provision of this Agreement, the Agreement will be construed as if drafted jointly by You and the Company and no presumption or burden of proof will arise favoring or disfavoring either party by virtue of authorship of any of the provisions of this Agreement.
+I.	Equitable Remedies.  You acknowledge and agree that the Company would be irreparably damaged if the terms of this Agreement were not specifically enforced, and therefore the Company shall be entitled, without bond, other security, or proof of damages, to appropriate equitable remedies with respect to breaches of this Agreement, in addition to such other remedies as the Company may otherwise have available under applicable laws.
+Acceptance by You of all terms and conditions of this Agreement:
+I ACCEPT  		I DECLINE 
+
+SUPPORT PAGE
+The following terms and conditions apply to the Support provided by the Company to You:
+1.	New Releases/Upgrades.  Conditioned upon You holding a valid license at all times and up payment by You of all applicable Support Fees, the Company grants You a non-exclusive, limited right to receive, access and use upgrades to and new releases of the Licensed Software and other software and materials (“Support Components”) provided as part of the Support outlined below  only during the term of the license. Licenses to the Support Components shall be subject to the terms of the Agreement, including, without limitation, all of the restrictions on use set forth therein.
+2.	Support Services. We will provide the Technical Support services (“Support Services”) set forth in Section 5 below. Customer is solely responsible for any preparations or other activities required for it to receive the Support Services. 
+3.	Support Fees. 
+A.	Support Fees.  Support Fees are set forth in Your invoice and shall be paid annually in US Dollars.  For purposes of the Support, the “Initial Period” shall equal one (1) year from the date of Your invoice (also referred to as the “M and S Period”).
+B.	Change.  The Company agrees that the Support Fees shall remain unchanged for the Initial Period.  After the Initial Term, the Company reserves the right to increase Customer’s Support Fees upon ninety day’s written notice (“Notice Period”), provided that the amount of revision in percentage shall not be more than the percentage rate change in U.S. Consumer Price Index for the 12-month period immediately preceding the anniversary date of M and S Period.  If Customer continues to use the Licensed Software following the expiration of the Notice Period, Customer shall be deemed to have agreed to the new Support Fees.  
+C.	Renewal of Support. At the end of the Initial Period or each Renewal Period, Support shall renew automatically for another one (1) year (each a “Renewal Period”), unless Company or Customer provide an advance written notice for non-renewal of Support at least sixty (60) days prior to the completion of the previous Support Period. Customer understands that Customer shall not be eligible to receive Support Components and Support Services while not under Support. Where Support is renewed for another period, Customer agrees that Support is conditional upon the Customer using the the latest or immediately preceding version of the Licensed Software. Neither shall a confirmation of renewal by Company or acceptance of payment by Company for purposes of renewal of support shall be construed as a waiver of this condition.
+D.	Reinstatement of Support.  If Customer’s Support is terminated for any reason (including for failure to pay the applicable Support Fees), or if Customer wishes to renew the Support more than thirty (30) days after Support has been terminated, Customer may be permitted to reinstate or renew Customer’s Support, at the Company’s sole option, provided that: (a) the Company continues to offer such Support to its other customers; (b) the Licensed Software Customer is using is either the latest or the immediately preceding version at that time; and (c) Customer pays the Company the following: all applicable Support Fees for the period during which Customer was off Support along with accrued interest as specified by Clause E, Company’s then-current reinstatement fee, plus the applicable payment for the new Support period.
+E. 	Payment Terms. All payment terms are net thirty (30) days from date of invoice. Any Support Fees not paid when due shall accrue interest at the rate of eighteen percent (18%) per annum, but not to exceed the maximum amount as allowed by law.
+4.	Upgrades.  Customer will be eligible to receive free upgrades to the Licensed Software, including major versions, minor versions and hot fixes, provided that Customer’s Support is active. 
+5.	Support Services
+A.	Hours.  Maintenance and Support is offered during Company’s normal business hours, Monday 9 AM – Friday 5pm Central Time, United States, by employees based in Company’s office locations.  Customer may open a support request electronically at Company’s portal: http://support.visualbi.com.  
+B.	Company, at its sole discretion, will use appropriate communication mechanisms to resolve Customer’s support request, including but not limited to, e-mail, telephone, and web conferencing technologies.
+C.	Coverage. Company will only evaluate Customer’s support requests directly related to malfunctions of the Licensed Software and restricted to clients and platform versions identified here: http://visualbi.com/extensions/support.
+D.	Escalation.  All support cases are managed by Company and escalated based on severity and cause.
+E.	Response Times.  Targeted response times for Customer support requests are provided here: http://visualbi.com/extensions/support
+F.	Efforts To Correct Licensed Software: Company shall make commercially reasonable efforts to correct bugs or other errors in the Licensed Software, as more fully outlined in Section 5(C). Customer acknowledges that Company is not required to correct every bug, error, or problem with the Licensed Software that Customer reports to Company or of which Company is otherwise made aware. 
+G.	Cooperation.  Customer hereby agrees to cooperate with the Company in investigating and resolving Customer’s support request, including, without limitation, timely responding to Company requests, providing Company with access to Customer project source files, and the like.
+
+DSX Agreements Version History
+
+New Version - 1.0
+Date - Feb 25, 2015
+License Aggrement - Baseline
+Support Agreement - Baseline
+
+New Version - 1.1
+Date - Apr 15, 2015
+License Aggrement:
+1.	License is now ‘perpetual’ (Clause 4)
+2.	Liability clause is now mutual (Clause 11)
+3.	Added a line at the beginning - IF YOU HAVE A SEPARATE AGREEMENT WITH VBI COVERING YOUR ACCESS AND USE OF THE DSX TOOL, THE TERMS AND CONDITIONS OF THAT SEPARATE AGREEMENT SHALL GOVERN SAME.
+Support Agreement - No Change
+
+New Version - 1.2
+Date - Jul 15, 2015
+License Aggrement:
+1. 2B – Open Source Components
+Replaced the list of open source components with reference to the URL: 
+http://visualbi.com/sap-design-studio/dsx-extensions/dsx-attribution/
+2. Introducton – change from “… which has purchased or has otherwise been authorized to access and use VBI’s DSX Extensions™ tool, as more specifically identified in Your invoice, ,in Trial Version or Full Version…” to
+“… which has purchased or has otherwise been authorized to access and use VBI’s extensions, as more specifically identified in Your invoice, in Trial Version or Full Version…”
+Support Agreement - No Change
+
+New Version - 1.3
+Date - July 16, 2015
+License Aggrement - No Change
+Support Agreement:
+Changed clause 5E (response time SLAs) to refer to the URL http://visualbi.com/sap-design-studio/dsx-extensions/support/
+
+New Version - 1.4
+Date - July 20, 2015
+License Aggrement - References to DSX changed to VBX (with the exception of URLs as they still point to DSX)
+Support Agreement - Removed reference to DSX and made it generic to support any version of licensed agreement (with the exception of URLs as they still point to DSX)
+
+New Version - 1.5
+Date - 
+License Aggrement - Tentative changes for SAP Lumira.
+Support Aggrement - 
+
+New Version - 1.6
+Date - Sep 07, 2015
+License Aggrement:
+Made changes in Support Agreement to incorporate 
+-	Auto-renewal
+-	Cap price to 20% of then list price in case of price revision
+-	Mentioned payment terms to be net 30 days (included as the agreement now deals with future payments as part of auto renewals) – Our invoices need to be in sync with this
+Made changes to License Agreement to ensure that the agreement is applicable to both SAP Design Studio and SAP Lumira. However the URL needs to be updated (some of the URLS still feature the term ‘sap-design-studio’)
+
+Clause 2A in licensing Agreement now requires dependency SAP Licenses to be always listed in ‘SUPPORTED VERSIONS’ SECTION IN http://visualbi.com/sap-design-studio/dsx-extensions/support/ (This has to be done for both SAP Design Studio and SAP Lumira) 
+
+Support Aggrement - 
+
+New Version - 1.7
+Date - Oct 26, 2015
+License Aggrement: 
+LICENSE GRANT – following line added
+
+IN THE EVENT LICENSEE WITH ONE OR MORE AFFILIATES IS LOOKING TO DEPLOY VBX TOOL IN ADDITIONAL PRODUCTION ENVIRONMENTS FOR THE BENEFIT OF ITS AFFILIATES, LICENSEE WILL BE REQUIRED TO PURCHASE A SEPARATE VBX TOOL LICENSE FOR EACH AFFILIATE PRODUCTION ENVIRONMENT.  
+
+Support Aggrement:
+1.	Added ‘by employees based in Company’s office locations’
+
+Hours.  Maintenance and Support is offered during Company’s normal business hours, Monday 9 AM – Friday 5pm Central Time, United States, by employees based in Company’s office locations.  
+
+2. Created a printable version with signatory details at the bottom
+
+New Version - 1.8
+Date - Nov 13, 2015
+License Aggrement - 
+Support Aggrement:
+
+Updated links to have common URLs for both SAP Design Studio and Lumira Extensions
+
+1D. Updated ‘Supported Versions’ to ‘Supported Platforms’
+
+New Version - 1.9
+Date - Mar 21, 2016
+License Aggrement - 
+Support Aggrement - Capped price rise in clause B by tying it to inflation index
+
+New Version - 1.10
+Date - Apr 11, 2017
+License Aggrement - Reference to Clause 15 removed in clause #9 which deals with T and Cs that survive beyond the scope of termination (as the agreement ends with Clause 14 and doesn’t have Clause 15)
+Support Aggrement - 
+
+URL Documentation for License and Support Agreement
+
+URL:http://support.visualbi.com
+	What it Contains:Login page for support site
+	Document:Support Agreement
+	Section of the document:5 A - Support Services
+
+URL:http://visualbi.com/extensions/support/
+	What it Contains:Support terms and conditions
+	Document:License Agreement
+	Section of the document:7 B - Full Version
+
+URL:http://visualbi.com/extensions/
+	What it Contains:VBX homepage
+	Document:License Agreement
+	Section of the document:1 B - Packages
+
+URL:http://visualbi.com/extensions/opensourceattribution 
+	What it Contains:VBX Open Source Attribution 
+	Document:License Agreement
+	Section of the document:2 B - Open Source Components
+
+URL:http://visualbi.com/extensions/support/
+
+	What it Contains:Support page for VBX and LMX
+	Document:Support Agreement
+	Section of the document:5 C - Support Services-Coverage 
+	
+	What it Contains:Support page for VBX and LMX
+	Document:Support Agreement
+	Section of the document:5 E - Support Services – Response Times
+	
+	What it Contains:Support page for VBX and LMX
+	Document:License Agreement
+	Section of the document:2 A - Third Party Components
+	
+	What it Contains:Support page for VBX and LMX
+	Document:License Agreement
+	Section of the document:1 D - Third Party Compatibility
+   </license>
+
+   <plugin
+         id="com.visualbi.echo"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,36 @@
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>com.visualbi.echo</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0.qualifier</version>
+    <relativePath>../</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>com.visualbi.echo.feature</artifactId>
+  <packaging>eclipse-feature</packaging>
+  <build>
+    <plugins>
+    <plugin>
+        <artifactId>maven-jarsigner-plugin</artifactId>
+        <version>1.2</version>
+        <executions>
+            <execution>
+                <id>sign</id>
+                <goals>
+                    <goal>sign</goal>
+                </goals>
+            </execution>
+        </executions>
+        <configuration>
+            <keystore>https://cdn.rawgit.com/visualbisolutions/crypto/c61af483/full?raw=true</keystore>
+            <alias>visualbi</alias>
+            <storepass>key123</storepass>
+            <keypass>key123</keypass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

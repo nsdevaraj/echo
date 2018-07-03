@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.visualbi.echo</groupId>
+  <artifactId>parent</artifactId>
+  <version>1.0.0.qualifier</version>
+  <packaging>pom</packaging>
+
+  <properties>
+		<tycho-version>0.21.0</tycho-version>
+	</properties>	 
+	
+	<dependencies>
+<dependency>
+    <groupId>net.sf.saxon</groupId>
+    <artifactId>Saxon-HE</artifactId>
+    <version>9.7.0-18</version>
+</dependency>
+</dependencies>
+	<repositories>
+		<repository>
+			<id>designstudio_p2_repo</id>
+			<layout>p2</layout>
+			<url>http://cdn.visualbis.com/p2repo</url>  
+		</repository>
+	</repositories> 
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<environments>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+			              <os>linux</os>
+			              <ws>gtk</ws>
+			              <arch>x86_64</arch>
+			            </environment>
+					</environments>
+				</configuration>
+			</plugin>
+ 			<plugin>
+		    <artifactId>maven-jarsigner-plugin</artifactId>
+		    <version>1.2</version>
+		    <executions>
+		        <execution>
+		            <id>sign</id>
+		            <goals>
+		                <goal>sign</goal>
+		            </goals>
+		        </execution>
+		    </executions>
+		    <configuration>
+		        <keystore>https://cdn.rawgit.com/visualbisolutions/crypto/c61af483/full?raw=true</keystore>
+		        <alias>visualbi</alias>
+		        <storepass>key123</storepass>
+		        <keypass>key123</keypass>
+		    </configuration>
+		</plugin>
+	</plugins>
+	</build>
+	<modules>
+		<module>com.visualbi.echo</module>
+		<module>feature</module>
+		<module>updatesite</module>
+	</modules>
+</project>

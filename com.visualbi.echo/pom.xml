@@ -1,13 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.visualbi.echo.master</groupId>
+    <groupId>com.visualbi.echo</groupId>
     <artifactId>parent</artifactId>
-    <version>16.2.0 
-</version>
+    <version>1.0.0.qualifier</version>
   </parent>
-  <artifactId>com.visualbi.echo 
-</artifactId>
+  <artifactId>com.visualbi.echo</artifactId>
   <packaging>eclipse-plugin</packaging>
   <build>
     <plugins>
@@ -23,7 +21,7 @@
             </execution>
         </executions>
         <configuration>
-            <keystore>..\full</keystore>
+            <keystore>https://cdn.rawgit.com/visualbisolutions/crypto/c61af483/full?raw=true</keystore>
             <alias>visualbi</alias>
             <storepass>key123</storepass>
             <keypass>key123</keypass>
