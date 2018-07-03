@@ -13,7 +13,7 @@ jobs:
           key: circleci-vbx-{{ checksum ".circleci/config.yml" }}
       - run:
           name: npm-install
-          command: 'if [ ! -e ~/vbx-suite/node_modules/replace-in-file ]; then npm install replace-in-file nodemailer aws-sdk; else echo "Node dependencies restored from cache"; fi;'
+          command: 'if [ ! -e ~/alexa/node_modules/replace-in-file ]; then npm install replace-in-file nodemailer aws-sdk; else echo "Node dependencies restored from cache"; fi;'
       - run:
           name: update-license
           command: node contributionUpdate.js ${EXP_DATE} ${LICENSE_KEY} ${HS_DATE} ${IMAGE_STR}
@@ -21,7 +21,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.m2
-            - ~/vbx-suite/node_modules
+            - ~/alexa/node_modules
           key: circleci-vbx-{{ checksum ".circleci/config.yml" }}     
       - store_artifacts:
           path: updatesite/target/VBISuite-1.0.0.qualifier.zip
