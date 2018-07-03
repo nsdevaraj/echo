@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: com.visualbi.echo;singleton:=true
 Bundle-Name: Design Studio SDK Extension Sample Colored Box
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.0.qualifier
 Archiver-Version: Plexus Archiver
 Built-By: nithyanandamv
 Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk.eclipse

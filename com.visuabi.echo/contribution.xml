@@ -3,7 +3,7 @@
 	xmlns="http://www.sap.com/bi/zen/sdk"
 	id="com.visualbi.echo"
 	title="Design Studio SDK Extension Sample Colored Box"
-	version="16.2"
+	version="1.0"
 	vendor="VISUALBI">
 	<component
 		id="Echo"

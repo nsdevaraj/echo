@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/com.visualbi.echo.feature_1.0.0.jar" id="com.visualbi.echo.feature" version="1.0.0.qualifier">
+   <feature url="features/com.visualbi.vdt.feature_1.0.0.qualifier.jar" id="com.visualbi.echo.feature" version="1.0.0.qualifier">
       <category name="com.sap.ip.bi.zen.sdk"/>
-   </feature> 
+   </feature>
    <category-def name="com.sap.ip.bi.zen.sdk" label="com.sap.ip.bi.zen.sdk"/>
 </site>
-

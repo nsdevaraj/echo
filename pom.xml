@@ -80,6 +80,7 @@
 	</build>
 	<modules>
 		<module>com.visualbi.echo</module>
-		<module>feature/echo</module>
+		<module>feature</module>
+		<module>updatesite</module>
 	</modules>
 </project>
