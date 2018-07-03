@@ -2,7 +2,7 @@
 <feature
       id="com.visualbi.echo.feature"
       label="Visual BI Extensions for SAP Lumira Designer - Echo"
-      version="16.2.0.qualifier"
+      version="1.0.0.qualifier"
       provider-name="Visual BI Solutions"
       license-feature="com.sap.rte.sharedinfo.updatesite">
 
