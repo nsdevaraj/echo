@@ -10,7 +10,7 @@ trail.fileName = process.argv[4].replace(/@/g,'-').replace(/\./g,'-')
 const signedUrlExpireSeconds = 7*24*60*60; //link expiry in seconds
 //visualbi-dms-codestore
 const awsConfig = {Bucket: 'visualbi-vbx-autoinstall-codestore', accessKeyId: 'AKIAJ2HJMVPT5ZTQPU6Q', secretAccessKey: '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', region: 'us-east-2'}
-fs.renameSync('updatesite/target/VBISuite-1.0.0.qualifier.zip',`updatesite/target/VBX_SUITE_LD_${trail.version}_${trail.fileName}.zip`);
+fs.renameSync('updatesite/target/VBISuite-1.0.0.qualifier.zip',`updatesite/target/VBX_SUITE_ECHO_${trail.version}_${trail.fileName}.zip`);
 console.log('Rename done:'+trail.user)
 //configuring the AWS environment 
 AWS.config.update({
@@ -21,11 +21,11 @@ AWS.config.update({
   });
 const s3 = new AWS.S3();
 //configuring parameters
-const fullLocation = path.basename(`updatesite/target/VBX_SUITE_LD_${trail.version}_${trail.fileName}.zip`)
+const fullLocation = path.basename(`updatesite/target/VBX_SUITE_ECHO_${trail.version}_${trail.fileName}.zip`)
 console.log(fullLocation)
 const uploadParams = {
   Bucket: awsConfig.Bucket,
-  Body : fs.createReadStream(`updatesite/target/VBX_SUITE_LD_${trail.version}_${trail.fileName}.zip`),
+  Body : fs.createReadStream(`updatesite/target/VBX_SUITE_ECHO_${trail.version}_${trail.fileName}.zip`),
   Key : `VBX_SUITE_LD_${trail.version}_${trail.fileName}.zip`
 };
 s3.upload(uploadParams, function (err, data) {
