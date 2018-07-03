@@ -3,22 +3,22 @@ class com.visualbi.echo.Echo extends Component {
 	String kpisummary(String kpi){*
 		switch(kpi) {
 				    case 'cost':
-				    	PL_COST.onClick();				    	
+						UI_ACTIONS.expandCostDetails();
 				        break;
 				    case 'value':
-				    	PL_VALUE.onClick();
+						UI_ACTIONS.expandValueDetails();
 				        break;
 				    case 'orders':
-				    	PL_ORDERS.onClick();
+				    	UI_ACTIONS.expandOrdersDetails();
 				        break;
 				    case 'unfullfilled':
-				    	PL_UNFULFILLED.onClick();
+				    	UI_ACTIONS.expandUnordersDetails();
 				        break;
 				    case 'valueunfullfilled':
-				    	PL_VALUE_UNFULFILLED.onClick();
+				    	UI_ACTIONS.expandUnorderValueDetails();
 				        break;
 				    default:
-				    	PL_VALUE.onClick();
+				    	UI_ACTIONS.expandValueDetails();
 				}
 			return 'success';
 	*}
@@ -45,39 +45,24 @@ class com.visualbi.echo.Echo extends Component {
 	String locationfilter(String param){*
 		switch(param) {
 				    case 'poor':
-				    	BT_FILTER_POOR.onClick();
-				    	FILTER_POOR.setCSSClass("buttonSel");
-						FILTER_FAIR.setCSSClass("button");
-						FILTER_GOOD.setCSSClass("button");
-						FILTER_ALL.setCSSClass("button");
+						GV_MeasureType = "Bad";
+						GSO_GEOMAP.setMarkers_1(GV_MeasureType, GV_Measure);
 				        break;
 				    case 'fair':
-				    	BT_FILTER_FAIR.onClick();									    	
-						FILTER_FAIR.setCSSClass("buttonSel");
-						FILTER_ALL.setCSSClass("button");
-						FILTER_GOOD.setCSSClass("button");
-						FILTER_POOR.setCSSClass("button");
+						GV_MeasureType = "Regular";
+						GSO_GEOMAP.setMarkers_1(GV_MeasureType, GV_Measure);
 				        break;
-				        case 'good':
-				    	BT_FILTER_GOOD.onClick();
-				    	FILTER_GOOD.setCSSClass("buttonSel");
-						FILTER_ALL.setCSSClass("button");
-						FILTER_POOR.setCSSClass("button");
-						FILTER_FAIR.setCSSClass("button");
+				    case 'good':
+						GV_MeasureType = "Good";
+						GSO_GEOMAP.setMarkers_1(GV_MeasureType, GV_Measure);
 				        break;
-				         case 'all':
-				    	BT_FILTER_ALL.onClick();
-				    	FILTER_ALL.setCSSClass("buttonSel");
-						FILTER_FAIR.setCSSClass("button");
-						FILTER_GOOD.setCSSClass("button");
-						FILTER_POOR.setCSSClass("button");
+				    case 'all':
+						GV_MeasureType = "All";
+						GSO_GEOMAP.setMarkers_1(GV_MeasureType, GV_Measure);
 				        break;
 				    default:
-				    	BT_FILTER_ALL.onClick();
-				    	FILTER_ALL.setCSSClass("buttonSel");
-						FILTER_FAIR.setCSSClass("button");
-						FILTER_GOOD.setCSSClass("button");
-						FILTER_POOR.setCSSClass("button");
+						GV_MeasureType = "All";
+						GSO_GEOMAP.setMarkers_1(GV_MeasureType, GV_Measure);
 				}
 			return 'success';
 	*}
@@ -120,55 +105,24 @@ class com.visualbi.echo.Echo extends Component {
 		}
 		switch(dimname) {
 		    case "saleschannel":	     	
-				DS_LOCATION_KPIVALUES.setFilter("DIST_CHANNEL_NAME", value);
-				//Removing filters
-				DS_HEATMAP.clearFilter("DIVISION");
-				DS_KPI_TREND.clearFilter("DIVISION");
-				DS_LOCATION_KPIVALUES.clearFilter("DIVISION");
-				DS_LOCATION_ANALYZER.clearFilter("DIVISION");
-				DS_POPUP_TREND.clearFilter("DIVISION");
+				GSO_DASHBOARD.setSalesChannelFilters(value);
 				
-				DS_LOCATION_ANALYZER.clearFilter("PLANTNAME");
-				DS_POPUP_TREND.clearFilter("PLANTNAME");
-				
-				//Setting filters
-				DS_HEATMAP.setFilter("DIST_CHANNEL_NAME", value);
-				DS_KPI_TREND.setFilter("DIST_CHANNEL_NAME", value);
-				DS_LOCATION_ANALYZER.setFilter("DIST_CHANNEL_NAME", value);
-				DS_POPUP_TREND.setFilter("DIST_CHANNEL_NAME", value);
-				
-				LB_DIVISION.setSelectedValue("(ALL_MEMBERS)");
 		        break;
 		    case "salesdivision":
-		        DS_LOCATION_KPIVALUES.setFilter("DIVISION", value);
-		       //Removing filters
-				DS_HEATMAP.clearFilter("DIST_CHANNEL_NAME");
-				DS_KPI_TREND.clearFilter("DIST_CHANNEL_NAME");
-				DS_LOCATION_KPIVALUES.clearFilter("DIST_CHANNEL_NAME");
-				DS_LOCATION_ANALYZER.clearFilter("DIST_CHANNEL_NAME");
-				DS_POPUP_TREND.clearFilter("DIST_CHANNEL_NAME");
-
-				DS_LOCATION_ANALYZER.clearFilter("PLANTNAME");
-				DS_POPUP_TREND.clearFilter("PLANTNAME");
-
-				//Setting filters
-				DS_HEATMAP.setFilter("DIVISION", value);
-				DS_KPI_TREND.setFilter("DIVISION", value);
-				DS_LOCATION_ANALYZER.setFilter("DIVISION", value);
-				DS_POPUP_TREND.setFilter("DIVISION", value);
-				LB_CHANNEL.setSelectedValue("(ALL_MEMBERS)");
+		       GSO_DASHBOARD.setSalesDivisionFilters(value);
+				break;
         }
 		return 'Success';
 	*}
 	
 
 	String restart() {*
-		LB_DIVISION.setSelectedValue("(ALL_MEMBERS)");
-		LB_CHANNEL.setSelectedValue("(ALL_MEMBERS)");
-		LB_CHANNEL.onSelect();
-		LB_DIVISION.onSelect();
+		LBOX_SALEDIV.setSelectedValue("(ALL_MEMBERS)");
+		LBOX_SALECHANNEL.setSelectedValue("(ALL_MEMBERS)");
+		LBOX_SALECHANNEL.onSelect();
+		LBOX_SALEDIV.onSelect();
 		BT_FILTER_ALL.onClick();
-		BUTTON_LOCATION.onClick();
+		//BUTTON_LOCATION.onClick();
 		return 'Success';
 	*}
 	

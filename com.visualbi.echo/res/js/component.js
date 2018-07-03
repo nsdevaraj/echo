@@ -4,7 +4,7 @@ define(["sap/designstudio/sdk/component","css!../css/component.css","./socket"],
 		var that = this;
 		var this_dashboardinfo='sample;working;fine';
 		var this_maxmininfo='Product A has the highest Revenue and Product B has the lowest Revenue;Region A has the highest profit and Region B has the lowest Profit.';
-		var this_url='http://localhost:3000/';
+		var this_url='https://vbxecho.herokuapp.com';
 		var socket;
 
 		this.init = function() {			
